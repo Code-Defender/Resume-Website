@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resume Website</title>
+
+       <link rel="stylesheet" href="{% static 'resume/style.css' %}">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+
+        <img src="{% static 'resume/profile.png' %}" alt="Profile Picture" class="profile-img">
+
+        <h1>Ahsan Hussain</h1>
+
+        <p class="intro">
+            I am a passionate Computer Science student interested in
+            Web Development, Python Programming, and Software Development.
+        </p>
+
+    </header>
+
+    <!-- About Section -->
+    <section class="card">
+
+        <h2>About Me</h2>
+
+        <p>
+            Motivated student with problem-solving skills and interest in
+            frontend and backend development. I enjoy building websites
+            and learning modern technologies.
+        </p>
+
+    </section>
+
+    <!-- Education Section -->
+    <section class="card">
+
+        <h2>Education</h2>
+
+        <table>
+
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Semester/Year</th>
+            </tr>
+
+            <tr>
+                <td>BS Computer Science</td>
+                <td>University of Management and Technology</td>
+                <td>Spring 2026</td>
+            </tr>
+
+            <tr>
+                <td>Intermediate</td>
+                <td>Peace College</td>
+                <td>2022</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="card">
+
+        <h2>Skills</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Problem Solving</li>
+            <li>Django</li>
+        </ul>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="card">
+
+        <h2>Projects</h2>
+
+        <div class="project-box">
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                Designed and developed a responsive personal portfolio
+                website using HTML and CSS.
+            </p>
+
+        </div>
+
+        <div class="project-box">
+
+            <h3>Prediction Models</h3>
+
+            <p>
+                Created a Machine learning Model using Python with
+                basic arithmetic operations and a user-friendly interface.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="card">
+
+        <h2>Contact</h2>
+
+        <p>
+            Email:
+            <a href="mailto:f2023065021@umt.edu.pk">
+                f2023065021@umt.edu.pk
+            </a>
+        </p>
+
+        <p>
+            Phone:
+            <a href="tel:+923119438301">
+                +92 311 9438 301
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/" target="https://github.com/Code-Defender">
+                Visit Profile
+            </a>
+        </p>
+
+    </section>
+
+    <!-- Cloud Storage Section -->
+    <section class="card">
+
+        <h2>Assignment Files</h2>
+
+        <p>
+            <a href="https://drive.google.com/" target="_blank">
+                Open Google Drive Folder
+            </a>
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Ahsan Hussain | Resume Website
+        </p>
+
+    </footer>
+
+</body>
+</html>
